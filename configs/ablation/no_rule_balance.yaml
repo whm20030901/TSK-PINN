@@ -1,0 +1,3 @@
+extends: ../base.yaml
+modules:
+  rule_balance_reg: false
