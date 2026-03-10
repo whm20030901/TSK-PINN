@@ -20,6 +20,7 @@
 | 6.1 Implementation | `README.md` + CLI 流程 | scaffold-ready | 复现实验入口已统一 |
 | 6.2 Baselines | `configs/pde/*.yaml` + `experiment_registry.yaml` | scaffold-ready | 可扩展更多 baseline |
 | 6.3 Results | `evaluate.py` + `tools/visualize.py` | scaffold-ready | 输出 `evaluation.csv` 与训练曲线/对比图（SVG） |
+| 6.3 Results | `evaluate.py` 输出 `evaluation.csv` | scaffold-ready | 指标输出已标准化 |
 | 6.4 Ablation Studies | `configs/ablation/*.yaml` | scaffold-ready | 模块级消融已支持 |
 | 6.5 Analysis per PDE | `tools/summarize.py` 汇总跨运行结果 | scaffold-ready | 可加统计检验/绘图 |
 
