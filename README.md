@@ -36,6 +36,19 @@ python evaluate.py --config configs/base.yaml --ckpt runs/baseline_burgers_seed4
 python tools/summarize.py --runs-dir runs --out results/raw/summary.csv
 ```
 
+
+## Visualization module (新增)
+
+参考常见 PINN/TSK 开源仓库的实验展示方式（训练曲线 + 消融柱状图），新增：
+
+- `tools/visualize.py`
+  - 读取 `runs/*/history.csv` 生成 `results/figures/loss_curves.svg`
+  - 读取 `results/raw/summary.csv` 生成 `results/figures/ablation_l2.svg`
+
+```bash
+python tools/visualize.py --run-dir runs --summary-csv results/raw/summary.csv --out-dir results/figures --run-name baseline_burgers_seed42
+```
+
 ## Ablation examples
 
 ```bash

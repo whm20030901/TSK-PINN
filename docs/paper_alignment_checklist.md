@@ -19,6 +19,7 @@
 | 5 Training Algorithm | `train.py`（训练主入口） | scaffold-ready | 可替换为真实 PINN 反向传播 |
 | 6.1 Implementation | `README.md` + CLI 流程 | scaffold-ready | 复现实验入口已统一 |
 | 6.2 Baselines | `configs/pde/*.yaml` + `experiment_registry.yaml` | scaffold-ready | 可扩展更多 baseline |
+| 6.3 Results | `evaluate.py` + `tools/visualize.py` | scaffold-ready | 输出 `evaluation.csv` 与训练曲线/对比图（SVG） |
 | 6.3 Results | `evaluate.py` 输出 `evaluation.csv` | scaffold-ready | 指标输出已标准化 |
 | 6.4 Ablation Studies | `configs/ablation/*.yaml` | scaffold-ready | 模块级消融已支持 |
 | 6.5 Analysis per PDE | `tools/summarize.py` 汇总跨运行结果 | scaffold-ready | 可加统计检验/绘图 |
@@ -28,3 +29,5 @@
 - 在 `README.md` 新增“我现在已经完成了什么（对应论文）”章节。
 - 明确声明当前进度是“可执行实验骨架”。
 - 明确每一项功能对应到论文 4.x/5.x/6.x 的具体位置。
+- 新增 `tools/visualize.py`，可输出 PINN 常见的 loss 曲线与 ablation 柱状对比图。
+
