@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-03-10T08:32:32.625495+00:00",
+  "commit": "unknown",
+  "config": {
+    "runtime": {
+      "seed": 42,
+      "runs_dir": "runs"
+    },
+    "pde": {
+      "name": "burgers_1d"
+    },
+    "model": {
+      "backbone_width": 64,
+      "backbone_depth": 4,
+      "k_coarse": 4,
+      "k_fine": 8
+    },
+    "training": {
+      "epochs": 60,
+      "optimizer_stage1": "Adam",
+      "optimizer_stage2": "LBFGS"
+    },
+    "modules": {
+      "hierarchical_antecedent": true,
+      "adapter_consequent": true,
+      "difficulty_score": true,
+      "rule_balance_reg": false,
+      "conflict_aware_weighting": true
+    }
+  },
+  "metrics": {
+    "epoch": 60,
+    "l2_error": 0.082862,
+    "pde_residual": 0.065602,
+    "bc_ic_error": 0.064736
+  },
+  "estimated_params": 18662,
+  "estimated_epoch_seconds": 0.0893
+}

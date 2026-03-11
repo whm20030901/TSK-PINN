@@ -1,0 +1,2 @@
+run,pde,seed,l2_error,pde_residual,bc_ic_error,params
+baseline_burgers_seed42,burgers_1d,42,0.078473,0.062127,0.061307,18662

@@ -1,0 +1,2 @@
+epoch,l2_error,pde_residual,bc_ic_error
+60,0.078473,0.062127,0.061307
