@@ -1,5 +1,0 @@
-experiments:
-  - baseline_burgers_seed42
-  - baseline_heat_seed42
-  - ablation_no_conflict_weight
-  - ablation_no_rule_balance
