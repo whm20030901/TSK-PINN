@@ -1,3 +1,0 @@
-extends: ../base.yaml
-modules:
-  conflict_aware_weighting: false

@@ -1,5 +1,0 @@
-extends: ../base.yaml
-pde:
-  name: heat_1d
-training:
-  epochs: 50
