@@ -1,0 +1,3 @@
+extends: ../pde/heat_1d.yaml
+modules:
+  conflict_aware_weighting: false

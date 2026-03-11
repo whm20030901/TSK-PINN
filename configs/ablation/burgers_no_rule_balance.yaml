@@ -1,0 +1,3 @@
+extends: ../pde/burgers_1d.yaml
+modules:
+  rule_balance_reg: false

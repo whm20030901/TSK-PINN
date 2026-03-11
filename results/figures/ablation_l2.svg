@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="120" y1="60.00" x2="1240" y2="60.00" stroke="#e6e6e6" />
+<line x1="120" y1="162.00" x2="1240" y2="162.00" stroke="#e6e6e6" />
+<line x1="120" y1="264.00" x2="1240" y2="264.00" stroke="#e6e6e6" />
+<line x1="120" y1="366.00" x2="1240" y2="366.00" stroke="#e6e6e6" />
+<line x1="120" y1="468.00" x2="1240" y2="468.00" stroke="#e6e6e6" />
+<line x1="120" y1="570.00" x2="1240" y2="570.00" stroke="#e6e6e6" />
+<line x1="120" y1="570" x2="1240" y2="570" stroke="#333"/>
+<line x1="120" y1="60" x2="120" y2="570" stroke="#333"/>
+<rect x="155.47" y="418.06" width="115.73" height="151.94" fill="#4e79a7"/>
+<line x1="213.33" y1="421.75" x2="213.33" y2="414.37" stroke="#111" stroke-width="2"/>
+<line x1="205.33" y1="421.75" x2="221.33" y2="421.75" stroke="#111" stroke-width="2"/>
+<line x1="205.33" y1="414.37" x2="221.33" y2="414.37" stroke="#111" stroke-width="2"/>
+<text x="213.33" y="410.06" text-anchor="middle" font-size="19">0.0003 (n=3)</text>
+<text x="213.33" y="736" transform="rotate(20,213.33,736)" text-anchor="start" font-size="18">baseline_heat</text>
+<rect x="342.13" y="348.38" width="115.73" height="221.62" fill="#f28e2b"/>
+<line x1="400.00" y1="352.07" x2="400.00" y2="344.69" stroke="#111" stroke-width="2"/>
+<line x1="392.00" y1="352.07" x2="408.00" y2="352.07" stroke="#111" stroke-width="2"/>
+<line x1="392.00" y1="344.69" x2="408.00" y2="344.69" stroke="#111" stroke-width="2"/>
+<text x="400.00" y="340.38" text-anchor="middle" font-size="19">0.0004 (n=3)</text>
+<text x="400.00" y="736" transform="rotate(20,400.00,736)" text-anchor="start" font-size="18">heat_no_conflict_weight</text>
+<rect x="528.80" y="348.38" width="115.73" height="221.62" fill="#e15759"/>
+<line x1="586.67" y1="352.07" x2="586.67" y2="344.69" stroke="#111" stroke-width="2"/>
+<line x1="578.67" y1="352.07" x2="594.67" y2="352.07" stroke="#111" stroke-width="2"/>
+<line x1="578.67" y1="344.69" x2="594.67" y2="344.69" stroke="#111" stroke-width="2"/>
+<text x="586.67" y="340.38" text-anchor="middle" font-size="19">0.0004 (n=3)</text>
+<text x="586.67" y="736" transform="rotate(20,586.67,736)" text-anchor="start" font-size="18">heat_no_rule_balance</text>
+<rect x="715.47" y="218.70" width="115.73" height="351.30" fill="#76b7b2"/>
+<line x1="773.33" y1="222.72" x2="773.33" y2="214.68" stroke="#111" stroke-width="2"/>
+<line x1="765.33" y1="222.72" x2="781.33" y2="222.72" stroke="#111" stroke-width="2"/>
+<line x1="765.33" y1="214.68" x2="781.33" y2="214.68" stroke="#111" stroke-width="2"/>
+<text x="773.33" y="210.70" text-anchor="middle" font-size="19">0.0006 (n=3)</text>
+<text x="773.33" y="736" transform="rotate(20,773.33,736)" text-anchor="start" font-size="18">baseline_burgers</text>
+<rect x="902.13" y="149.02" width="115.73" height="420.98" fill="#59a14f"/>
+<line x1="960.00" y1="153.05" x2="960.00" y2="145.00" stroke="#111" stroke-width="2"/>
+<line x1="952.00" y1="153.05" x2="968.00" y2="153.05" stroke="#111" stroke-width="2"/>
+<line x1="952.00" y1="145.00" x2="968.00" y2="145.00" stroke="#111" stroke-width="2"/>
+<text x="960.00" y="141.02" text-anchor="middle" font-size="19">0.0007 (n=3)</text>
+<text x="960.00" y="736" transform="rotate(20,960.00,736)" text-anchor="start" font-size="18">burgers_no_conflict_weight</text>
+<rect x="1088.80" y="149.02" width="115.73" height="420.98" fill="#edc949"/>
+<line x1="1146.67" y1="153.05" x2="1146.67" y2="145.00" stroke="#111" stroke-width="2"/>
+<line x1="1138.67" y1="153.05" x2="1154.67" y2="153.05" stroke="#111" stroke-width="2"/>
+<line x1="1138.67" y1="145.00" x2="1154.67" y2="145.00" stroke="#111" stroke-width="2"/>
+<text x="1146.67" y="141.02" text-anchor="middle" font-size="19">0.0007 (n=3)</text>
+<text x="1146.67" y="736" transform="rotate(20,1146.67,736)" text-anchor="start" font-size="18">burgers_no_rule_balance</text>
+<text x="640.0" y="40" text-anchor="middle" font-size="36">Ablation Comparison (L2 mean ± std)</text>
+<text x="640.0" y="752" text-anchor="middle" font-size="26">Variants</text>
+<text x="32" y="380.0" transform="rotate(-90,32,380.0)" text-anchor="middle" font-size="26">L2 Error</text>
+</svg>

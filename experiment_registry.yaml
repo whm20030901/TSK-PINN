@@ -1,0 +1,19 @@
+experiments:
+  - baseline_burgers_seed42
+  - baseline_burgers_seed43
+  - baseline_burgers_seed44
+  - burgers_no_conflict_weight_seed42
+  - burgers_no_conflict_weight_seed43
+  - burgers_no_conflict_weight_seed44
+  - burgers_no_rule_balance_seed42
+  - burgers_no_rule_balance_seed43
+  - burgers_no_rule_balance_seed44
+  - baseline_heat_seed42
+  - baseline_heat_seed43
+  - baseline_heat_seed44
+  - heat_no_conflict_weight_seed42
+  - heat_no_conflict_weight_seed43
+  - heat_no_conflict_weight_seed44
+  - heat_no_rule_balance_seed42
+  - heat_no_rule_balance_seed43
+  - heat_no_rule_balance_seed44
