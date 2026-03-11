@@ -1,0 +1,5 @@
+extends: ../base.yaml
+pde:
+  name: burgers_1d
+training:
+  epochs: 80
