@@ -1,0 +1,24 @@
+runtime:
+  seed: 42
+  runs_dir: runs
+
+pde:
+  name: burgers_1d
+
+model:
+  backbone_width: 64
+  backbone_depth: 4
+  k_coarse: 4
+  k_fine: 8
+
+training:
+  epochs: 60
+  optimizer_stage1: Adam
+  optimizer_stage2: LBFGS
+
+modules:
+  hierarchical_antecedent: true
+  adapter_consequent: true
+  difficulty_score: true
+  rule_balance_reg: true
+  conflict_aware_weighting: true

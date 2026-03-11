@@ -1,0 +1,10 @@
+run,pde,seed,l2_error,pde_residual,bc_ic_error,params
+baseline_burgers_seed42,burgers_1d,42,0.078473,0.062127,0.061307,18662
+baseline_burgers_seed43,burgers_1d,43,0.072479,0.077404,0.047504,18662
+baseline_burgers_seed44,burgers_1d,44,0.076169,0.072168,0.035783,18662
+no_conflict_weight_seed42,burgers_1d,42,0.083959,0.066471,0.065593,18662
+no_conflict_weight_seed43,burgers_1d,43,0.077965,0.083263,0.0511,18662
+no_conflict_weight_seed44,burgers_1d,44,0.081656,0.077366,0.03836,18662
+no_rule_balance_seed42,burgers_1d,42,0.082862,0.065602,0.064736,18662
+no_rule_balance_seed43,burgers_1d,43,0.076868,0.082091,0.050381,18662
+no_rule_balance_seed44,burgers_1d,44,0.080559,0.076326,0.037845,18662
